@@ -1,0 +1,107 @@
+.kastIs {
+  background-image: url("https://www.kastapp.co/assets/pages/home/gradient-violet-bg.jpg");
+  height: 800px;
+  padding-bottom: -500px;
+}
+
+body {
+  margin: 0px;
+}
+
+#kastUsers {
+  padding-top: 40px;
+  height: 55%;
+  width: 50%;
+  margin-left: 360px;
+}
+
+.watch {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: verdana;
+}
+
+#byline {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: verdana;
+}
+
+#button {
+    width: 190px;
+    height: 40px;
+    padding-top: 6px;
+    background:rgb(212, 170, 62);
+    margin-left: 615px;
+    border-radius: 5px; 
+    font-size: 22px;
+    color: white;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+}
+
+.featured {
+    background: white;
+    padding-bottom: 60px;
+    height: 400px;
+    width: 100%;
+}
+
+#feature {
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    font-family: Verdana;
+    font-size: 28px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    max-width: 880px;
+    margin: 0 auto 60px;
+}
+
+#quote {
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.whatIs {
+    background-color: rgb(39, 175, 162);
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    height: 300px;
+}
+
+#what {
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+#logo {
+    height:60px;
+    width:20%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+    
+}
