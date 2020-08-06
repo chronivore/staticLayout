@@ -43,6 +43,19 @@ body {
     text-align: center;
 }
 
+#button :link {
+  text-decoration: none;
+  color: white;
+}
+
+#button :visited {
+  color: white;
+}
+
+#button :hover {
+  color: rgb(69, 30, 92);
+}
+
 .featured {
     background: white;
     padding-bottom: 60px;
@@ -102,6 +115,17 @@ body {
     justify-content: space-around;
     color: white;
     font-size: 20px;
-    font-family: verdana;
-    
+    font-family: verdana; 
+}
+
+.nav :link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav :visited {
+  color: white;
+}
+.nav :hover {
+  color: rgb(212, 170, 62);
 }
